@@ -1,0 +1,118 @@
+#anatasiyici{
+			background: url("../img/bg2_co.gif") repeat-x scroll 0 0 transparent;
+			color:white;
+			font-family:verdana;
+			font-size:13px;
+			padding:0px;
+			font-weight:bold;
+			padding-top:5px;
+			height:61px;
+			width:635px;
+			float:left;
+			}
+#anatasiyici ul
+				{
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				}
+
+#anatasiyici ul li {
+					display: inline;
+					padding: 9px 13px 16px 13px;
+					vertical-align:middle;
+					text-align:center;
+					font-size:10px;
+					width:110px;
+					text-decoration: none;
+					background-color: transparent;
+					font-weight:bold;
+					color: #6A6A6A;
+					margin-right:1px;
+					}
+
+#anatasiyici ul li:hover {
+					display: inline;
+					padding: 9px 13px 16px 13px;
+					vertical-align:middle;
+					text-align:center;
+					font-size:10px;
+					width:110px;
+					text-decoration: underline;
+					background-color: transparent;
+					font-weight:bold;
+					cursor:pointer;
+					color:#4A4A4A;
+					margin-right:1px;
+					}
+
+#altIcerikler{width:635px;}
+
+.ileriDugmesi
+{
+background:url("../img/next-horizontal.png") no-repeat scroll 0 0 transparent;
+cursor:pointer;
+float:right;
+height:14px;
+margin-left:614px;
+margin-top:4px;
+position:absolute;
+width:14px;
+}
+.geriDugmesi
+{
+background:url("../img/prev-horizontal.png") no-repeat scroll 0 0 transparent;
+cursor:pointer;
+float:right;
+height:14px;
+margin-left:596px;
+margin-top:4px;
+position:absolute;
+width:14px;
+}
+
+#pano{margin:4px 0 5px 10px;}
+
+#panoalti
+{
+background-color:transparent;
+overflow:hidden;
+padding:10px 4px;
+width:600px;
+height:35px;
+}
+
+.secili
+{
+background:url("../img/bg_co.gif") repeat-x scroll 0 0 transparent;
+color:#000000;
+}
+
+#menuseridi
+			{
+			height:25px;
+			padding-top:5px;
+			width:1900px;
+			background-color:transparent;
+			float:left;
+			margin-left:0px;
+			}
+
+#altIcerik{width:635px;}
+.altIcerik_true
+{
+width:100%;
+display:block;
+background-color:#E6E6E6;
+border:0px;
+height:300px;
+}
+
+.altIcerik_false
+{
+width:100%;
+display:none;
+background-color:#E6E6E6;
+border:0px;
+height:300px;
+}
